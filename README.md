@@ -43,9 +43,9 @@ The code is organized into the following sections:
 **Model Definitions**:
 
 Random Forest: Configured with 100 estimators and a random state of 
-1.XGBoost: Configured with 100 estimators and a random state of 
-2.LightGBM: Configured with 100 estimators and a random state of 
-3.Logistic Regression: Configured with a maximum of 2000 iterations and a random state of 3.
++ XGBoost: Configured with 100 estimators and a random state of
++ LightGBM: Configured with 100 estimators and a random state of 
++ Logistic Regression: Configured with a maximum of 2000 iterations and a random state of 3.
 
 
 **Model Training and Evaluation**:
@@ -83,6 +83,7 @@ Generate and display Precision-Recall and ROC curves for each model.
 
 
 **Output**
+
 The script produces the following outputs:
 
 Console Output:
@@ -103,6 +104,7 @@ The dataset path (C:\Users\HomePC\Desktop\psykose\schizophrenia-features.csv) sh
 The random state values ensure reproducibility of results.
 The code assumes numerical features in the dataset; categorical feature preprocessing is included but may not be used if no categorical features are present.
 The ROC curve plotting for XGBoost and LightGBM contains an error in the original code: it incorrectly uses precisions_xgb and recalls_xgb (or precisions_lgbm and recalls_lgbm) instead of fprs and tprs. This should be corrected for accurate ROC curve visualization.
+
 ```
 Results
 Accuracy: 0.8333333333333334
