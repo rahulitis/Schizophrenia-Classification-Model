@@ -1,4 +1,5 @@
-Schizophrenia Classification Model
+**Schizophrenia Classification Model**
+
 Overview
 This project implements a machine learning pipeline to classify schizophrenia using features from a dataset. It employs multiple classifiers (Random Forest, XGBoost, LightGBM, and Logistic Regression) to predict the class labels and evaluates their performance using various metrics such as accuracy, log loss, precision, recall, and ROC AUC. The code includes data preprocessing, model training, cross-validation, and visualization of Precision-Recall and ROC curves.
 Dataset
