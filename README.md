@@ -68,6 +68,10 @@ Precision-Recall and ROC curves are plotted for each model.
 Precision-Recall and ROC curves are visualized for each model across all folds.
 Plots include a diagonal line for ROC curves to represent a random classifier.
 
+<img width="1502" height="712" alt="Screenshot 2025-07-31 093646" src="https://github.com/user-attachments/assets/a41efd71-be68-4c98-8622-3d8c6221a5b3" />
+<img width="1502" height="712" alt="Screenshot 2025-07-31 093636" src="https://github.com/user-attachments/assets/03ac31ca-4c12-4c95-b3e8-f63ade4c095a" />
+<img width="1502" height="712" alt="Screenshot 2025-07-31 093625" src="https://github.com/user-attachments/assets/61f0606d-a9a7-40d1-b02e-1abe2044f082" />
+<img width="1502" height="712" alt="Screenshot 2025-07-31 093612" src="https://github.com/user-attachments/assets/2341535c-bdb8-4248-825f-36d5e3c82251" />
 
 
 ## Usage
