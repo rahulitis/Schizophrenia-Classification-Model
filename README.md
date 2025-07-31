@@ -30,12 +30,12 @@ The code is organized into the following sections:
 
 **Data Loading and Preprocessing**:
 
-+Loads the dataset using pandas.
-+Selects relevant features (f.mean, f.sd, f.propZeros) and the +target variable (class).
-+Splits the data into training (80%) and validation (20%) sets.
-+Applies preprocessing using sklearn's ColumnTransformer to handle +numerical and categorical features:
-+Numerical features: Imputation with mean and standard scaling.
-+Categorical features: Imputation with most frequent value and one-+hot encoding.
++ Loads the dataset using pandas.
++ Selects relevant features (f.mean, f.sd, f.propZeros) and the +target variable (class).
++ Splits the data into training (80%) and validation (20%) sets.
++ Applies preprocessing using sklearn's ColumnTransformer to handle +numerical and categorical features:
++ Numerical features: Imputation with mean and standard scaling.
++ Categorical features: Imputation with most frequent value and one-+hot encoding.
 
 
 
