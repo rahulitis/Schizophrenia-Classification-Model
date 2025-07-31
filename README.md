@@ -1,6 +1,6 @@
-#Schizophrenia Classification Model
+# Schizophrenia Classification Model
 
-##Overview
+## Overview
 This project implements a machine learning pipeline to classify schizophrenia using features from a dataset. It employs multiple classifiers (Random Forest, XGBoost, LightGBM, and Logistic Regression) to predict the class labels and evaluates their performance using various metrics such as accuracy, log loss, precision, recall, and ROC AUC. The code includes data preprocessing, model training, cross-validation, and visualization of Precision-Recall and ROC curves.
 Dataset
 The dataset used is schizophrenia-features.csv, which contains features related to schizophrenia classification. The relevant features used for modeling are:
@@ -11,7 +11,7 @@ f.propZeros: Proportion of zero values in the feature
 
 The target variable is class, which represents the classification label (e.g., positive or negative for schizophrenia).
 
-#Requirements
+# Requirements
 To run the code, the following Python libraries are required:
 
 **pandas**
@@ -25,7 +25,7 @@ Install the dependencies using:
 ```
 pip install pandas numpy matplotlib xgboost scikit-learn lightgbm
 ```
-##Code Structure
+## Code Structure
 The code is organized into the following sections:
 
 **Data Loading and Preprocessing**:
@@ -42,10 +42,10 @@ The code is organized into the following sections:
 
 **Model Definitions**:
 
-Random Forest: Configured with 100 estimators and a random state of 1.
-XGBoost: Configured with 100 estimators and a random state of 2.
-LightGBM: Configured with 100 estimators and a random state of 3.
-Logistic Regression: Configured with a maximum of 2000 iterations and a random state of 3.
+Random Forest: Configured with 100 estimators and a random state of 
+1.XGBoost: Configured with 100 estimators and a random state of 
+2.LightGBM: Configured with 100 estimators and a random state of 
+3.Logistic Regression: Configured with a maximum of 2000 iterations and a random state of 3.
 
 
 **Model Training and Evaluation**:
@@ -70,7 +70,7 @@ Plots include a diagonal line for ROC curves to represent a random classifier.
 
 
 
-##Usage
+## Usage
 
 Ensure the dataset schizophrenia-features.csv is available in the specified directory or update the file path in the code.
 Run the script in a Python environment with the required libraries installed.
@@ -82,7 +82,7 @@ Generate and display Precision-Recall and ROC curves for each model.
 
 
 
-Output
+**Output**
 The script produces the following outputs:
 
 Console Output:
@@ -122,13 +122,13 @@ Logistic Regression Accuracy: 0.8485720375106564
 Logistic Regression Log Loss: 0.3808506579324614
 Logistic Regression ROC AUC: 0.9122030806710735
 ```
-##Limitations
+## Limitations
 
 The code assumes the dataset is clean and properly formatted.
 The preprocessing pipeline may need adjustments if additional feature types (e.g., categorical features) are introduced.
 The ROC curve plotting issue mentioned above should be addressed for accurate visualization.
 
-##Future Improvements
+## Future Improvements
 
 Correct the ROC curve plotting for XGBoost and LightGBM by using fprs and tprs.
 Add hyperparameter tuning (e.g., using GridSearchCV) to optimize model performance.
